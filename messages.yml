@@ -1,0 +1,78 @@
+prefix: "&8[&7Opsy&cBan&8] "
+banlist-prefix: "&2Players Ban List: &d"
+chat:
+  permanent-ban-message:
+    - "&6You have banned the player &b{player}&6!"
+    - "&7&m-]----------|----|----------[-"
+    - "&7Reason: &3{reason}"
+    - "&7Ban date: &3{date}"
+    - "&7Ban Time: &3Permanent"
+    - "&7&m-]----------|----|----------[-"
+  temporary-ban-message:
+    - "&6You have banned the player &b{player}&6!"
+    - "&7&m-]----------|----|----------[-"
+    - "&7Reason: &3{reason}"
+    - "&7Ban date: &3{date}"
+    - "&7Ban Time: &3{time}"
+    - "&7&m-]----------|----|----------[-"
+  kick-message:
+    - "&6You have kicked the player &b{player}&6!"
+    - "&7&m-]----------|----|----------[-"
+    - "&7Reason: &3{reason}"
+    - "&7Kick date: &3{date}"
+    - "&7&m-]----------|----|----------[-"
+  unban-message:
+    - "&cYou have unbanned the player &b{player}&c!"
+    
+kick:
+  permanent-ban-message:
+    - "&6»» &3OpsyBan &6««"
+    - "&4YOU HAVE BEEN BANNED !"
+    - "&7&m-]----------|----|----------[-"
+    - "&7Ban Giver: &3{giver}"
+    - "&7Reason: &3{reason}"
+    - "&7Ban Time: &3Permanent"
+    - "&7Ban Date: &3{date}"
+    - "&7&m-]----------|----|----------[-"
+    - "&7Ban appeal: &dhttps://discord.opsycraft.fr/"
+  temporary-ban-message:
+    - "&6»» &3OpsyBan &6««"
+    - "&4YOU HAVE BEEN BANNED !"
+    - "&7&m-]----------|----|----------[-"
+    - "&7Ban Giver: &3{giver}"
+    - "&7Reason: &3{reason}"
+    - "&7Ban Time: &3{time}"
+    - "&7Ban Time Left: &3{left}"
+    - "&7Ban Date: &3{date}"
+    - "&7&m-]----------|----|----------[-"
+    - "&7Ban appeal: &dhttps://discord.opsycraft.fr/"
+  kick-message:
+    - "&6»» &3OpsyKick &6««"
+    - "&4YOU HAVE BEEN KICKED !"
+    - "&7&m-]----------|----|----------[-"
+    - "&7Kick Giver: &3{giver}"
+    - "&7Reason: &3{reason}"
+    - "&7Kick Date: &3{date}"
+    - "&7&m-]----------|----|----------[-"
+    - "&7Kick appeal: &dhttps://discord.opsycraft.fr/"
+
+empty-reason: "&cNo reason"
+
+help-page:
+  - "HELP PAGE"
+
+plugin-reloaded:
+  - "&aPlugin has been reloaded!"
+  
+errors:
+  empty-ban-list:
+    - "&cThere are no player banned!"
+  kick-player-offline:
+    - "&cThe player {player} is offline!"
+  no-ban-time:
+    - "&cYou must indicate a valid time and higher than 0 seconds to temporary ban someone!"
+  not-banned:
+    - "&cThe player {player} is not banned yet!"
+    - "&cDo &d/ban list &cto get the banned players list!"
+  not-enough-permissions:
+    - "&cSorry, but you don't have enough permissions!"

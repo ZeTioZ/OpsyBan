@@ -1,0 +1,44 @@
+name: OpsyBan
+version: 0.0.1
+author: ZeTioZ
+main: fr.opsycraft.opsyban.Main
+website: https://opsycraft.fr/
+commands:
+  opsyban:
+    aliases: [ban, oban]
+    description: Ban player command
+    permission: opsyban.ban
+  opsytempban:
+    aliases: [tempban, otempban, tban]
+    description: Temporary ban command
+    permission: opsyban.tempban
+  opsyunban:
+    aliases: [unban, ounban, pardon, opardon]
+    description: Unban player command
+    permission: opsyban.unban
+  opsykick:
+    aliases: [kick, okick]
+    description: Kick player command
+    permission: opsyban.kick
+permissions:
+  opsyban.*:
+    description: Give access to all opsyban commands
+    children:
+      opsyban.banlist: true
+      opsyban.ban: true
+      opsyban.unban: true
+      opsyban.kick: true
+      opsyban.tempban: true
+      opsyban.reload: true
+  opsyban.banlist:
+    description: Allow players to see the ban list
+  opsyban.ban:
+    description: Allow players to ban a player
+  opsyban.tempban:
+    description: Allow players to temporary ban a player
+  opsyban.unban:
+    description: Allow players to unban a player
+  opsyban.kick:
+    description: Allow players to kick a player
+  opsyban.reload:
+    description: Allow players to reload the plugin
