@@ -1,4 +1,4 @@
-package fr.opsycraft.opsyban.utilities;
+package fr.opsycraft.opsyban.utils;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;

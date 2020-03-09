@@ -5,7 +5,7 @@ import org.bukkit.event.Listener;
 import org.bukkit.plugin.Plugin;
 import org.bukkit.plugin.java.JavaPlugin;
 
-import fr.opsycraft.opsyban.utilities.FilesManager;
+import fr.opsycraft.opsyban.utils.FilesManager;
 
 public class Main extends JavaPlugin implements Listener
 {

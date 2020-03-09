@@ -17,7 +17,7 @@ import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.AsyncPlayerPreLoginEvent;
 
-import fr.opsycraft.opsyban.utilities.TimeConverter;
+import fr.opsycraft.opsyban.utils.TimeConverter;
 
 public class BanCommand implements CommandExecutor, Listener{
 
