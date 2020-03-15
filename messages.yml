@@ -26,7 +26,7 @@ chat:
     
 kick:
   permanent-ban-message:
-    - "&6Â»Â» &3OpsyBan &6Â«Â«"
+    - "&6»» &3OpsyBan &6««"
     - "&4YOU HAVE BEEN BANNED !"
     - "&7&m-]----------|----|----------[-"
     - "&7Ban Giver: &3{giver}"
@@ -36,7 +36,7 @@ kick:
     - "&7&m-]----------|----|----------[-"
     - "&7Ban appeal: &dhttps://discord.opsycraft.fr/"
   temporary-ban-message:
-    - "&6Â»Â» &3OpsyBan &6Â«Â«"
+    - "&6»» &3OpsyBan &6««"
     - "&4YOU HAVE BEEN BANNED !"
     - "&7&m-]----------|----|----------[-"
     - "&7Ban Giver: &3{giver}"
@@ -47,7 +47,7 @@ kick:
     - "&7&m-]----------|----|----------[-"
     - "&7Ban appeal: &dhttps://discord.opsycraft.fr/"
   kick-message:
-    - "&6Â»Â» &3OpsyKick &6Â«Â«"
+    - "&6»» &3OpsyKick &6««"
     - "&4YOU HAVE BEEN KICKED !"
     - "&7&m-]----------|----|----------[-"
     - "&7Kick Giver: &3{giver}"
@@ -59,7 +59,12 @@ kick:
 empty-reason: "&cNo reason"
 
 help-page:
-  - "HELP PAGE"
+  - "&2/opsyban <player> <reason> &4» &dBan a player"
+  - "&2/opsytempban <player> <time> <reason> &4» &dTemporary ban a player"
+  - "&2/opsyunban <player> &4» &dUnban a player"
+  - "&2/opsykick <player> <reason> &4» &dKick a player"
+  - "&2/opsyban help &4» &dShow the help page"
+  - "&2/opsyban reload &4» &dReload the plugin"
 
 plugin-reloaded:
   - "&aPlugin has been reloaded!"
