@@ -63,7 +63,7 @@ help-page:
   - "&2/opsytempban <player> <time> <reason> &4» &dTemporary ban a player"
   - "&2/opsyunban <player> &4» &dUnban a player"
   - "&2/opsykick <player> <reason> &4» &dKick a player"
-  - "&2/opsyban help &4» &dShow the help page"
+  - "&2/opsyban help &4» &dShow the help page" 
   - "&2/opsyban reload &4» &dReload the plugin"
 
 plugin-reloaded:
